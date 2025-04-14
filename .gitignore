@@ -12,10 +12,9 @@ __pycache__/
 *.log
 
 # Virtual environment
-venv/
+.venv/
 .env
 .env.*
-.venv
 
 # Python Decouple
 .env        # Decouple's default env file
