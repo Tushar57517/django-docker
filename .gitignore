@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+*.log
+
+# Virtual environment
+venv/
+.env
+.env.*
+.venv
+
+# Python Decouple
+.env        # Decouple's default env file
+
+# Django
+*.sqlite3
+db.sqlite3
+/media
+/staticfiles
+/static/
+
+# Migrations
+**/migrations/
+**/migrations/*.py
+**/migrations/*.pyc
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Django stuff:
+local_settings.py
+
+# Sentry
+.sentryclirc
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Testing
+test-results/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
